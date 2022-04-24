@@ -1,0 +1,22 @@
+1-	You are working in company XYZ required you to develop ticketing system for Cinema, the owner of Cinema is focusing on two things:
+    a.	Security system for purchase ticket using Credit Cards.
+    b.	The performance of booking tickets.
+    
+Write scenarios for each requirement to get you client signature.
+
+Answer:
+a. 
+Source              : Customer
+Stimulus            : Tries to purchase ticket using credit cards
+Artifact            : Ticketing system
+Environment         : Under normal operations
+Response            : Authenticates credit card
+Response Measure    : 100% probability for detecting unauthenticated credit card within 5 seconds 
+
+b.
+Source              : Customer
+Stimulus            : Initiate transactions
+Artifact            : Ticketing system
+Environment         : Under normal operations
+Response            : Transactions are processed
+Response Measure    : With average latency of two seconds
